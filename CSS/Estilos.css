@@ -1,0 +1,136 @@
+*{margin:0;padding: 0;}
+html,body {
+	height:100%;
+}
+
+header {
+		
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background:#252932;
+	margin-bottom:100px;
+	height:195px;
+}
+.wrapper {
+	width:100%; /* Establecemos que el ancho sera del 100% */
+	max-width:1100px; /* Aqui le decimos que el ancho máximo sera de 1000px */ 
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+header .logo {
+	color:#f2f2f2;
+	font-size:5px;
+	line-height:100px;
+	float:left;
+}
+
+header .title{
+	color:#FFFA9D;
+	font-size:48px;
+	line-height:normal;
+	float:center;
+	text-shadow: -2px -2px 1px #3C48B6, 2px 2px 1px #3C48B6, -2px 2px 1px #3C48B6, 2px -2px 1px #3C48B6;
+}
+
+header .sesion{
+	color:#E2F735;
+	font-size:18px;
+	line-height:normal;
+	float:center;
+}
+ 
+header nav {
+	float:right;
+	line-height:200px;
+}
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+ 
+header nav a:hover {
+	background:#ede32a;
+	border-radius:50px;
+}
+
+.header2 {
+	position: fixed;
+	height:160px;
+}
+ 
+.header2 .logo {
+	line-height:100px;
+	font-size:30px;
+}
+.header2 .sesion {
+	text-align: right;
+}
+ 
+.header2 nav {
+	line-height:60px;
+}
+.header2 nav span{
+	margin-right: 10px;
+}
+.contenido{
+	padding-top: 150px;
+}
+.contenidotablas{
+	padding-top: 50px;
+}
+.contenido p{
+	margin-bottom: 1em;
+}
+
+@media screen and (max-width: 950px) {
+	header .logo,
+	header nav {
+		width:100%;
+		text-align:center; /*Centramos el menu y el logotipo*/
+		line-height:100px;
+	}
+ 
+	.header2 {
+		height:auto;
+	}
+ 
+	.header2 .logo,
+	.header2 nav {
+		line-height:50px;
+	}
+}
+
+section {
+	width: 100%;
+	background: #FEFBCB;
+	float: left;
+	overflow: auto;
+	padding-bottom: 60px;
+	padding-top:30px;
+}
+
+
+footer {
+	position: relative;
+	margin-top: relative;
+	height: 70px; 
+	padding:5px 0px;
+	clear: both;
+	background: #228B22;
+	text-align: center;
+	color: #fff;
+}
+figure {
+	display: table; margin: 2 auto;
+}
+#central{
+	float: center;
+}

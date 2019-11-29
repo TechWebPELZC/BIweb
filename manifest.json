@@ -1,0 +1,64 @@
+{
+  "name": "Biblioteca Informatica web",
+  "short_name": "BIweb",
+  "description": "Bienvenid@s a Biweb, La Biblioteca Informatica con gran variedad de libros",
+  "background_color": "#2B2B2B",
+  "theme_color": "#F0DB4F",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./Index.php",
+  "scope": "./",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "./Imagenes/iOS/Icon-1024.png",
+      "sizes": "1024x502",
+      "type": "image/png"
+    },
+    {
+      "src": "./Imagenes/Android/Icon-512.png",
+      "sizes": "512x251",
+      "type": "image/png"
+    },
+    {
+      "src": "./Imagenes/Logo384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "./Imagenes/iOS/Icon-256.png",
+      "sizes": "256x125",
+      "type": "image/png"
+    },
+    {
+      "src": "./Imagenes/Android/Icon-192.png",
+      "sizes": "192x94",
+      "type": "image/png"
+    },
+    {
+      "src": "./Imagenes/iOS/Icon-128.png",
+      "sizes": "128x62",
+      "type": "image/png"
+    },
+    {
+      "src": "./Imagenes/Android/Icon-96.png",
+      "sizes": "96x47",
+      "type": "image/png"
+    },
+    {
+      "src": "./Imagenes/iOS/Icon-64.png",
+      "sizes": "64x31",
+      "type": "image/png"
+    },
+    {
+      "src": "./Imagenes/iOS/Icon-32.png",
+      "sizes": "32x15",
+      "type": "image/png"
+    },
+    {
+      "src": "./Imagenes/iOS/Icon-16.png",
+      "sizes": "16x7",
+      "type": "image/png"
+    }
+  ]
+}
